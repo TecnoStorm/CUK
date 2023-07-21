@@ -1,0 +1,171 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+body {
+  height: 1600px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1084%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M59 1080L1139 0L1809.5 0L729.5 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M722.6 1080L1802.6 0L2011.1 0L931.1 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M1878 1080L798 0L102 0L1182 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3cpath d='M1274.4 1080L194.4000000000001 0L-266.0999999999999 0L813.9000000000001 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3cpath d='M1028.1510703403126 1080L1920 188.15107034031257L1920 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 1080L891.8489296596874 1080L 0 188.15107034031257z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1084'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1085'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1086'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.noticia {
+  background-color: rgba(21, 7, 173, 0);
+  width: 400px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 14px 2px rgba(3, 27, 185, 0);
+  border-radius: 5px;
+  height: fit-content;
+  padding: 10px 10px 50px 10px;
+  box-sizing: border-box;
+  transition: ease-out 0.3s;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+
+}
+
+.noticia:hover {
+  cursor: pointer;
+  background-color: rgba(7, 0, 203, 0.963);
+  color: rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+  border-bottom: 2px solid white;
+
+}
+
+.img-noticia {
+  max-height: 266.41px;
+  width: 100%;
+  background-size: cover;
+}
+
+.fecha {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.noticia-info {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(197, 197, 197);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1084%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M59 1080L1139 0L1809.5 0L729.5 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M722.6 1080L1802.6 0L2011.1 0L931.1 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M1878 1080L798 0L102 0L1182 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3cpath d='M1274.4 1080L194.4000000000001 0L-266.0999999999999 0L813.9000000000001 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3cpath d='M1028.1510703403126 1080L1920 188.15107034031257L1920 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 1080L891.8489296596874 1080L 0 188.15107034031257z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1084'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1085'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1086'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+#fecha {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#imagen1 {
+  background-image: url("../imagenes/noticia.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen2 {
+  background-image: url("../imagenes/TakuyaNoticiapng.png");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen3 {
+  background-image: url("../imagenes/SeminarioNoticia.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen4 {
+  background-image: url("../imagenes/ManualDeKarateDoNoticia.jpg");
+  background-position: top 39% center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen5 {
+  background-image: url("../imagenes/JornadaNoticiajpg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen6 {
+  background-image: url("../imagenes/2doTorneoNoticia.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen7 {
+  background-image: url("../imagenes/KarateTraducionalNoticia.jpeg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen8 {
+  background-image: url("../imagenes/ParamenicanoNoticia.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen9 {
+  background-image: url("../imagenes/CursoAvanzadoNoticia.jpeg");
+  background-position: top 100% center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen10 {
+  background-image: url("../imagenes/panamericanos-santiago.jpg");
+  background-position: top 100% center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#imagen11 {
+  background-image: url("../imagenes/Premiacion-Botana-I-1024x682.jpeg");
+  background-position: top 100% center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  background-position: top 39% center;
+}
+
+.contenedor2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 30px;
+}
+
+.noticia2 {
+  margin: 10px;
+  margin-right: 50px;
+}

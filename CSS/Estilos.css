@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1084%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M59 1080L1139 0L1809.5 0L729.5 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M722.6 1080L1802.6 0L2011.1 0L931.1 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M1878 1080L798 0L102 0L1182 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3cpath d='M1274.4 1080L194.4000000000001 0L-266.0999999999999 0L813.9000000000001 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3cpath d='M1028.1510703403126 1080L1920 188.15107034031257L1920 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1085%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 1080L891.8489296596874 1080L 0 188.15107034031257z' fill='url(%26quot%3b%23SvgjsLinearGradient1086%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1084'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1085'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1086'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  height: fit-content;
+}
+
+#eslogan {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 5px;
+}
+
+.noticia {
+  
+    flex: 0 0 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+  
+}
+
+#imagen-noticia {
+  background-image: url(../imagenes/noticia.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+#imagen-noticia2{
+  background-image: url(../imagenes/TakuyaNoticiapng.png);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+
+#imagen-noticia3 {
+  background-image: url(../imagenes/SeminarioNoticia.jpeg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+#imagen-noticia4 {
+  background-image: url(../imagenes/ManualDeKarateDoNoticia.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  background-position: top 40% center;
+}
+#imagen-noticia5 {
+  background-image: url(../imagenes/JornadaNoticiajpg.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+
+#contenedorTotal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 500px;
+}
+
+#inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#logoCentrado {
+  width: 150px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+table {
+  border: 1px solid black;
+  background-color: white;
+}
+
+#contenedor-tabla {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+#tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.entidad{
+  display: flex;
+  flex-direction: column;
+  color: rgb(144, 144, 144);
+  background-color: rgba(18, 51, 89, 0);
+  border: 1px thin black;
+  margin:10px;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  transition: ease-out 0.2s;
+}
+
+.imagenLogo{
+  width: 200px;
+  height: 200px;
+}
+#entidadesAfiliadas{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h3{
+  text-align: center;
+}
+.conjuntoEntidades{
+  display: flex;
+  width: 1000px;
+}
+#informacion{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: fit-content;
+}
+#contenedorInformacion{
+  display: flex;
+  justify-content: center;
+}
+.select {
+  height: 35px;
+  width: 200px;
+  text-align: center;
+  border-radius: 3px;
+  appearance: none;
+}
+#contenedorSelect{
+  display: flex;
+  justify-content: center;
+}
+h3{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#tituloSelect{
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#Contenedor-slider{
+ overflow: hidden;
+}
+#noticias {
+ display: flex;
+ flex-wrap: nowrap;
+ align-items: center;
+ transition: all 0.3s ease-in;
+}
+
+h2{
+  font-size: 30px;
+  margin: 50px;
+}
+#flechaDerecha:hover{
+  cursor: pointer;
+  fill: blue;
+}
+
+
+#flechaIzquierda:hover{
+  cursor: pointer;
+  fill: blue;
+}
+.noticia:hover{
+  cursor: pointer;
+}
+#enlaceNoticia{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 150px;
+  margin-top: 10px;
+}
+#contenedor-boton{
+  display: flex;
+  justify-content: center;
+}
+#enlaceNoticia:hover{
+background-color: blue;
+color: white;
+}
+.entidad:hover{
+  background-color: rgb(25, 60, 101);
+  transition: ease-in-out 0.2s;
+  color: rgb(237, 229, 229);
+}
+@media screen and (max-width: 768px) {
+  .conjuntoEntidades{
+    display: flex;
+    width: 314px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #entidadesAfiliadas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer img{
+    width: 50px;
+  }
+  p{
+    font-size: 10px;
+  }
+  html{
+    overflow-x: hidden;
+  }
+  #enlaceNoticia{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 150px;
+    margin-top: 20px;
+  }
+}

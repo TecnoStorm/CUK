@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confederacion Uruguaya de Karate</title>
+    <link rel="stylesheet" href="CSS/EncabezadoFooter.css">
+    <link rel="stylesheet" href="CSS/Afiliarse.css">
+</head>
+
+<body>
+    <header>
+        <div id="encabezado">
+            <img src="imagenes/LogoCUK.png" id="LogoCUK" alt="LogoCUK">
+            <div id="botones">
+                <div class="puntos-encabezado">
+                    <a href="Index.html" class="enlaces">inicio</a>
+                </div>
+                <div class="puntos-encabezado">
+                    <button onmouseover="menuInstitucional()"
+                        onmouseout="ocultarMenuInstitucional()">Institucional</button>
+                    <ul id="institucional-opciones" onmouseover="menuInstitucional()"
+                        onmouseout="ocultarMenuInstitucional()">
+                        <li> <a href="Historia.html">Historia,Actas,Estatutos,reglamentos</a></li>
+                        <li> <a href="Afiliarse.html">Como afiliarse a la CUK </a></li>
+                        <li><a href="ConsejoEjecutivo.html">Consejo Ejecutivo</a></li>
+                    </ul>
+                </div>
+                <div class="puntos-encabezado">
+                    <a href="Noticias.html" onmouseover="menuNoticia()"
+                    onmouseout="ocultarMenuNoticia()" class="enlaces"> Noticias</a>
+                        <ul id="noticias-opciones" onmouseover="menuNoticia()" onmouseout="ocultarMenuNoticia()">
+                            <li><a href="Eventos.html" id="txtEventos"> Eventos </a></li>
+                        </ul>
+                </div>
+                <div class="puntos-encabezado">
+                    <a href="Campeonatos.html" class="enlaces">Campeonatos</a>
+                </div>
+                <div class="puntos-encabezado">
+                    <a href="Seleccion.html" class="enlaces">Selección</a>
+                </div>
+                <div class="puntos-encabezado">
+                    <a href="Galeria.php" class="enlaces"> Galeria de imagenes</a>
+                </div>
+                <div class="puntos-encabezado">
+                    <a href="Arbitraje.html" class="enlaces">Arbitraje</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="afiliarse">
+        <h1>¿Cómo me afilio a la CUK?</h1>
+        <p>Existen dos tipos de afiliaciones a la CUK. Afiliaciones para personas y para instituciones.</p>
+        <p>La afiliación de personas requiere que la misma pertenezca a una institución que esté afiliada.</p>
+        <p>Afiliación de Personas a la CUK; Carné Confederado:</p>
+        <h2>La solicitud debe realizarla el responsable de
+            la escuela enviando los siguientes datos de sus alumnos:</h2>
+        <ul class="ul-texto">
+            <li class="li-texto">Nombre Completo</li>
+            <li class="li-texto">Nº de C.I</li>
+            <li class="li-texto">Fecha de nacimiento</li>
+        </ul>
+        <p>El costo es de $200 y tiene validez hasta el 31 de Diciembre de cada año.</p>
+        <h2>Afiliación de instituciones a la CUK.</h2>
+        <ul>
+            <li class="li-texto">Fotocopia de los Estatutos de su Institución.</li>
+            <li class="li-texto">Certificado expedido por el Ministerio de Educación y Cultura, que posee la Personería
+                Jurídica al día.</li>
+            <li class="li-texto">Lista de autoridades que componen la Comisión Directiva y Comisión Fiscal de su
+                Institución.</li>
+            <li class="li-texto">Aprobación del CE de CUK</li>
+        </ul class=ul-texto>
+        <hr>
+        <div id="carne">
+            <h2>Carné de deportista</h2>
+            <p>El trámite debe realizarse a través de la web según Ley Ley Nº 18719:</p> <a
+                href="https://www.gub.uy/tramites/carne-deportista">https://www.gub.uy/tramites/carne-deportista"</a>
+            <p>La Entidad Afiliada solicitará a la CUK la nota oficial que dicho trámite le exige.</p>
+            <details>
+                <summary>Artigas</summary>
+                <div class="tablas">
+                    <div class="tablitas">
+                        <table>
+                            <tr>
+                                <td> Ciudad</td>
+                                <td> Institución</td>
+                                <td>Dirección</td>
+                                <td>Teléfonos</td>
+                            </tr>
+                            <tr>
+                                <td>Bella Unión</td>
+                                <td>Gremeda</td>
+                                <td>Vasconcellos 538</td>
+                                <td>7722807-07792350-237 fax</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary>Canelones</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Pando</td>
+                        <td>CAAMEPA</td>
+                        <td>Baltasar Brum 1224</td>
+                        <td>2925111 te/lfax</td>
+                    </tr>
+                    <tr>
+                        <td>Comeca</td>
+                        <td>Batlle y Odoñez 136</td>
+                        <td>0332-2250 tel/fax</td>
+                    </tr>
+                    <tr>
+                        <td>Las piedras</td>
+                        <td>CRAMI</td>
+                        <td>Pilar Cabrera 617</td>
+                        <td>3643384-86 3644803/4536-3344 9649 Adm</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Cerro Largo</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Melo</td>
+                        <td>Plaza de Deporte</td>
+                        <td>Herrera s/n</td>
+                        <td>6428986</td>
+                    </tr>
+                    <tr>
+                        <td>Camcel</td>
+                        <td>La Rosa 576</td>
+                        <td>0642-3876-4529 8686-06430823</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Colonia</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Colonia</td>
+                        <td>ORAMECO</td>
+                        <td>18 de julio 374</td>
+                        <td>99520010 5222166-2057</td>
+                    </tr>
+                    <tr>
+                        <td>Carmelo</td>
+                        <td>CAMOC</td>
+                        <td>Zorrilla de San Martín 683</td>
+                        <td>0642-3876-4529 8686-06430823</td>
+                    </tr>
+                    <tr>
+                        <td>Rosario</td>
+                        <td>CAMEC</td>
+                        <td>Bolivar c/ituzaingo</td>
+                        <td>0552-2964-2702/2964</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Durazno</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Durazno</td>
+                        <td>Plaza de Deporte</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Flores</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Trinidad</td>
+                        <td>Intendencia Municipal</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>COMEFLO</td>
+                        <td>Fray Ubeda 647</td>
+                        <td>0364-2228-2202- 3787 fax</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Lavalleja</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Lavalleja</td>
+                        <td>Minas</td>
+                        <td>Plaza de Deporte</td>
+                        <td>4422649</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Maldonado</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Maldonado</td>
+                        <td>CRAME</td>
+                        <td>042253023 225474</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>LABORATORIO BIOESTE </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Intendencia Municipal</td>
+                        <td>Bolivar c/ituzaingo</td>
+                        <td>0552-2964-2702/2964</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Paysandú</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Paysandú</td>
+                        <td>COMEPA</td>
+                        <td>Colón 1224</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>LAB ANAL. CLIN. CEB </td>
+                        <td>Leandro Gómez 1117</td>
+                        <td>47224806-47222636</td>
+                    </tr>
+                    <tr>
+                        <td>Servicio SIET</td>
+                        <td>18 de Julio 1234</td>
+                        <td>47426766 fax 47229844</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Rio Negro</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Young</td>
+                        <td>CAMY</td>
+                        <td>Martirene y 25 de agosto</td>
+                        <td>0567-2380-2646 fax</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"> Fray Bentos</td>
+                        <td> plaza de Deportes</td>
+                        <td>45623084</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>AMEDRIN</td>
+                        <td>Rincón y Argentina</td>
+                        <td>0562-5555-4980-2447fax</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Rivera</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1">Rivera</td>
+                        <td>Cosmer</td>
+                        <td>Ituzaingó 471</td>
+                        <td>06227711-7711-15-42853324fax</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Rocha</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Rocha</td>
+                        <td>COMER0</td>
+                        <td>Gral. Artigas 254</td>
+                        <td>99520010
+                            4472-8785-89 8373-77 fax int 255</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Salto</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Salto</td>
+                        <td>CACENNAS</td>
+                        <td></td>
+                        <td>47330707/30717</td>
+                    </tr>
+                    <tr>
+                        <td>SOC MED Q DE SALTO </td>
+                        <td>Larrañaga 177</td>
+                        <td>473-31000-32213</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>San José</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>San José</td>
+                        <td> AS. MED. DE SAN JOSE</td>
+                        <td>Becerro de Bengoa 462</td>
+                        <td>03422215-6280-2234-2270fax</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Soriano</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Mercedesé</td>
+                        <td>Plaza de deportes</td>
+                        <td>Rambla de la</td>
+                        <td>45324799</td>
+                    </tr>
+                    <tr>
+                        <td>Dolores</td>
+                        <td>Plaza de deportes</td>
+                        <td></td>
+                        <td>5342862</td>
+                    </tr>
+                    <tr>
+                        <td>Cardona</td>
+                        <td>Plaza de deportes</td>
+                        <td></td>
+                        <td>45369143</td>
+                    </tr>
+                    <tr>
+                        <td>Mercedes</td>
+                        <td>CAMS</td>
+                        <td>Careaga 762</td>
+                        <td>4532-3853-2813-3444 fax</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Tacuarembo</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Tacuarembo</td>
+                        <td>COMTA</td>
+                        <td>18 DE JULIO 309</td>
+                        <td>0632-5111-3142 FAX</td>
+                    </tr>
+                    <tr>
+                        <td>ESTYMA SRL</td>
+                        <td>Lavalleja 243</td>
+                        <td>46323327</td>
+                    </tr>
+                    <tr>
+                        <td> Comisión Departamental MTyD</td>
+                        <td></td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>Paso de los Toros</td>
+                        <td> COMTA</td>
+                        <td> Bvar. Artigas 357</td>
+                        <td>0664-2019- 2791</td>
+                    </tr>
+                </table>
+            </details>
+            <details>
+                <summary>Treinta y Tres</summary>
+                <table>
+                    <tr>
+                        <td> Ciudad</td>
+                        <td> Institución</td>
+                        <td>Dirección</td>
+                        <td>Teléfonos</td>
+                    </tr>
+                    <tr>
+                        <td>Treinta y Tres</td>
+                        <td>Simón del Pino 1366</td>
+                        <td></td>
+                        <td>0452-2005-2008-2484
+                            Int.106 fax 5369</td>
+                    </tr>
+                </table>
+            </details>
+        </div>
+    </div>
+    <div id="escuelita">
+        <h3>¿Y PARA LOS MAS CHICOS ? </h3>
+        <p>Las clases comienzan el 8 de marzo,son gratuitas y son dirigidas a niños de 6 a 12 años. Con una duración de
+            1 hora</p>
+        <p>Los horarios son de 17:30 a 18:30 de 18:30 a 19:30</p>
+        <p> Para inscribirse es tan fácil como enviar por WhatsApp una foto del carnet pediátrico</p>
+        <p> y de la Cédula de identidad.</p>
+        <p> Ubicación de el centro de combat:El CEDEC se ubica en Bvr. Batlle y Ordoñez 2326, Montevideo.</p>
+        <img src="imagenes/Escuelitajpeg.jpeg" class="escuelita-imagen" alt="Imagen-escuelita">
+    </div>
+    <footer>
+        <div class="footer-contenedor">
+            <div class="footer-contacto">
+                <p>Ubicación Bv. José Batlle y Ordóñez 2326 (CEDEC) - Montevideo - Uruguay</p>
+                <p>Celular +598 99 999 999</p>
+                <p>Correo cuk@cuk.org.uy</p>
+            </div>
+            <div class="footer-logo">
+                <img src="imagenes/LogoCUKFooter.png" alt="logoCukCopyright">
+            </div>
+            <div class="footer-redes">
+                <p> Redes</p>
+                <a href="https://www.facebook.com/karatecuk/?locale=es_LA" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                        class="logo-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg></a>
+                <a href="https://www.instagram.com/cukkarate/?hl=es" target="_blank"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                        class="logo-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg></a>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/Encabezado.js"></script>
+</body>
+
+</html>
