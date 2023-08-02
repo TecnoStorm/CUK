@@ -69,7 +69,7 @@ p {
   background-color: rgba(255, 255, 255, 0.4);
   margin-top: 20px;
   justify-content: space-between;
-  max-width: 80%
+  height: 1040px;
 }
 
 embed {
@@ -92,7 +92,6 @@ embed {
 #reglamento {
   width: 200px;
   margin-top: 100px;
-  
 }
 
 #memoriapdf{
@@ -100,6 +99,104 @@ embed {
   height:900px;
 }
 #estatutopdf{
+  display: block;
   width:500px;
   height:600px;
+}
+#imgEstatuto{
+display: none;
+}
+#imgEstatuto{
+  display:none
+}
+@media screen and (max-width: 767px){
+  #pdfContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  #imgEstatuto{
+    display: block;
+    width: 90%;
+  }
+  #memoriapdf{
+    display: none;
+  }
+  #contenedorMemoriaMarco{
+      flex-direction: column;
+  }
+  #memoria{
+    width: 100%;
+    height: fit-content;
+  }
+  #MarcoNormativo{
+    width: 100%;
+    height: fit-content;
+    padding-bottom:0 ;
+  }
+  #imgEstatuto{
+    display: block;
+    margin:5px;
+  }
+  #estatutopdf{
+    display: none;
+  }
+  #aMemoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #reglamento{
+    margin-top: 0;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1366px){
+  #imgEstatuto{
+    display: block;
+    margin:5px;
+  }
+  #estatuto{
+    height: fit-content;
+  }
+  #estatutopdf{
+    display: none;
+  }
+  #aMemoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #memoria{
+    height: 1000px;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #MarcoNormativo{
+    height: fit-content;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  #memoriapdf{
+    display: none;
+  }
+  #textoMemoria{
+    font-size: 25px;
+  }
+  #tituloMemoria{
+    text-align: center;
+    font-size: 40px;
+  }
+  #reglamento{
+    margin-top: 0 
+  }
+  #contenedorMemoriaMarco{
+   flex-direction: column;
+  }
+  #acta p {
+     font-size: 30px;
+  }
+  
 }

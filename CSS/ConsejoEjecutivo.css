@@ -36,7 +36,7 @@ th {
   background-color: rgba(255, 255, 255, 0.4);
   margin-top: 20px;
   border: 1px solid black;
-  width: fit-content;
+  width: 400px
 }
 
 #contenedorTotal {
@@ -57,13 +57,48 @@ th {
 
 }
 #presentacion {
-  font-size: 20px;
+  font-size: 34px;
+  text-align: center;
   border: 3px solid black;
   margin-right: 5px;
-
+  width: 620px;
+  margin-bottom: 7px;
 }
+
 #pre-seleccion {
   display: flex;
   flex-direction: column;
 }
-
+@media screen and (max-width:767px) {
+  table,td,th{
+    width: 100%;
+    padding: 0;
+  }
+  #cargos{
+    flex-direction: column;
+  }
+  #presentacion{
+    width: 100%;
+  }
+  #informacion{
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1366px) {
+  
+  table,td,th{
+    width: 100%;
+    padding: 0;
+    font-size: 36px;
+  }
+  #cargos{
+    flex-direction: column;
+  }
+  #presentacion{
+    width: 100%;
+  }
+  #informacion{
+    width: 650px;
+    font-size: 32px;
+  }
+}

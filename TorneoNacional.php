@@ -13,12 +13,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/TorneoNacional.css">
         <link rel="stylesheet" href="CSS/EncabezadoFooter.css">
-
         <title>Document</title>
     </head>
     <body>
-        <main>
         <header>
+        <div id="encabezadoMedia">
+           <a href="Index.html" id="enlaceIndex"><img src="imagenes/LogoCUK.png" id="logoMedia"></a> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" id="opcionesMedia"fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </div>
+            <div id="contenedorMenu">
+            <div id="menu"> 
+            <div id="contenedorX">
+            <h2 id="tituloOpciones">Opciones</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" id="cerrarMenu"fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </div>
+            <ul>
+        <li id="opcionInstitucional">Instituciional</li>
+        <li class="MediaInstitucional"><a href="Historia.html">Historia </a></li>
+        <li class="MediaInstitucional"><a href="Afiliarse.html">Como Afiliarse a la Cuk</a></li>
+        <li class="MediaInstitucional"><a href="ConsejoEjecutivo.html">Consejo Ejecutivo</a></li>
+        <li id="opcionNoticias"> Noticias</li>
+        <li class="mediaNoticias"><a href="Noticias.html">Noticias</li></a>
+        <li class="mediaNoticias"><a href="Eventos.html">Eventos</li></a>
+        <li><a href="Campeonatos.html">Campeonatos</a></li>
+        <li><a href="Seleccion.html">Selección</a></li>
+        <li><a href="Galeria.php">Galeria de Imagenes</a></li>
+        <li><a href="Arbitraje.html">Arbitraje</a></li>
+         </ul>
+        </div> 
+         </div>
             <div id="encabezado">
                 <img src="imagenes/LogoCUK.png" id="LogoCUK">
                 <div id="botones">
@@ -79,7 +107,7 @@
                 <p>Correo cuk@cuk.org.uy</p>
             </div>
             <div class="footer-logo">
-                <img src="imagenes/LogoCUKFooter.png">
+                <img src="imagenes/LogoCUKFooter.png" id="CukCopyright">
             </div>
             <div class="footer-redes">
             <p> Redes</p>
@@ -99,7 +127,7 @@
         </div>
     </footer>
         <script src="JS/Encabezado.js"></script>
-        </main>
+        <script src="JS/MediaQuerys.js"></script>
     </body>
     </html>   
 </body>

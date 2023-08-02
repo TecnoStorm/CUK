@@ -94,3 +94,39 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width:799px){
+  #afiliarse{
+    width: 100%;
+  }
+  #escuelita{
+    width: 100%;
+  }
+  table,td,th{
+    width: 100%;
+    padding: 0;
+  }
+  #imagenEscuelita{
+    width: 100%;
+  }
+ 
+}
+@media screen and (min-width:800px) and (max-width:1366px){
+  #afiliarse{
+    width: 100%;
+    font-size: 20px;
+  }
+  #escuelita{
+    width: 100%;
+    font-size: 20px;
+  }
+  table,td,th{
+    width: 100%;
+    padding: 0;
+  }
+  #imagenEscuelita{
+    width: 100%;
+  }
+  summary{
+    font-size: 20px;
+  }
+}

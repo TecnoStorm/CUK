@@ -69,7 +69,7 @@
                 <p>Correo cuk@cuk.org.uy</p>
             </div>
             <div class="footer-logo">
-                <img src="imagenes/LogoCUKFooter.png">
+                <img src="imagenes/LogoCUKFooter.png" id="CukCopyright">
             </div>
             <div class="footer-redes">
             <p> Redes</p>

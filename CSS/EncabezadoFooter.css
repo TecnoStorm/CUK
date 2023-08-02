@@ -104,6 +104,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.8);
   bottom: 0;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .footer-contenedor-total {
@@ -112,7 +113,6 @@ footer {
 }
 
 .footer-contenedor {
-  padding: 0% 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -122,10 +122,6 @@ footer {
 #logoFooter {
   width: 110px;
   margin: 5px;
-}
-
-.footer-logo {
-  margin-right: 100px;
 }
 
 .logo-facebook{
@@ -150,7 +146,7 @@ footer {
 #boton-menu{
   display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   #encabezado {
     display: none; 
   }
@@ -176,11 +172,180 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 375px;
+    width: 100%;
   }
   .footer-contenedor-total {
     display: flex;
     justify-content: center;
-    width: 375px;
+    width: 90%;
   }
+}
+#encabezadoMedia{
+  display: none;
+}
+.MediaInstitucional{
+  display: none;
+}
+.mediaNoticias{
+  display:  none;
+}
+#tituloMemoria{
+  text-align: center;
+}
+#contenedorX{
+  display: flex;
+  justify-content: end;
+  }
+  #menu{
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 10px;
+  display: none;
+  background-color: white;
+  z-index: 9999;
+  align-items: end;
+  width: fit-content;
+  position: fixed;
+  }
+  .MediaInstitucional{
+  display: none;
+  }
+  #opcionesMedia{
+  display: block;
+  }
+  #enlaceIndex{
+  display: flex;
+  align-items: center;
+  }
+@media screen and (max-width: 767px){
+  #encabezadoMedia{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  #contenedorMenu{
+    display: flex;
+    justify-content: end;
+  }
+  #tituloOpciones{
+    font-size: 110%;
+    text-align: center;
+  }
+  #logoMedia{
+    width:35%;
+  }
+  #opcionesMedia{
+    display: block;
+  }  
+  ul{
+    list-style: none;
+  }
+  li{
+    pointer-events: painted;
+  }
+#encabezado{
+  display: none;
+}
+#encabezadoMedia{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.conjuntoEntidades{
+  width: fit-content;
+}
+footer p {
+  width: fit-content;
+}
+#CukCopyright{
+  width: 130%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1366px){
+  #encabezado{
+  display: none;
+  }
+
+  #encabezadoMedia{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  #contenedorMenu{
+    display: flex;
+    justify-content: end;
+  }
+  #tituloOpciones{
+    font-size: 110%;
+    text-align: center;
+  }
+  #logoMedia{
+    width:50%;
+  }
+  #opcionesMedia{
+    display: block;
+    transform: scale(1.2);
+  }  
+  ul{
+    list-style: none;
+  }
+  li{
+    pointer-events: painted;
+  }
+#encabezado{
+  display: none;
+}
+#encabezadoMedia{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 100px;
+  align-items: center;
+  width: 100%;
+}
+.conjuntoEntidades{
+  width: fit-content;
+}
+footer p {
+  width: fit-content;
+}
+#CukCopyright{
+  width: 100%;
+}
+#contenedorX{
+  display: flex;
+  justify-content: end;
+  }
+  #menu{
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 3%;
+  display: none;
+  background-color: white;
+  z-index: 9999;
+  align-items: end;
+  width: fit-content;
+  position: fixed;
+  transform: scale(1.3);
+  margin-right: 3%;
+  font-size: 30px;
+  }
+  .MediaInstitucional{
+  display: none;
+  }
+  #opcionesMedia{
+  display: block;
+  }
+  .footer-contacto{
+    font-size: 20px;
+  }
+  #enlaceIndex{
+  display: flex;
+  align-items: center;
+  }
+  #contenedorX{
+    display: flex;
+    justify-content: end;
+    }
+  
 }

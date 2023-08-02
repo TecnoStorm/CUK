@@ -33,3 +33,31 @@ body {
 #contenedor:hover {
   border: 1px solid blue;
 }
+@media screen and (max-width:767px){
+  
+  h1{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+}
+@media screen and (min-width:767px) and (max-width:1366px){
+  #contenedorTotal{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+  }
+  html{
+    height: 100%
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
