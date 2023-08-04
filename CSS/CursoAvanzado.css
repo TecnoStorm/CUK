@@ -32,8 +32,50 @@ h1 {
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.5);
 }
-
+#dosImagenes{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
+}
+@media  screen and (max-width:767px) {
+  #contenedor{
+    flex-direction: column;
+  }
+  #imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media  screen and (min-width:768px) and (max-width:1199px){
+     #contenedor{
+      flex-direction: column;
+      margin-bottom: 12%;
+     }
+     #dosImagenes{
+      display: flex;
+      flex-direction: row;
+     }
+     #imagenes{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+     }
+     .imagenes{
+      width: 50%;
+      height: 28%;
+      
+     }
+     p{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     }
+     #informacion{
+        width: 100%;
+        text-align: center;
+     }
 }

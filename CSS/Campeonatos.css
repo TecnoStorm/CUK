@@ -149,3 +149,92 @@ embed{
   width: 500px;
   height: 600px; 
 }
+#imgKumite{
+  display: none;
+}
+#imgKata{
+  display: none;
+}
+#imgJuvenil{
+  display: none;
+}
+#imgRanking{
+  display: none;
+}
+
+@media screen and (max-width:767px){
+  #imgKumite{
+    display: block;
+    width: 100%;
+  }
+  #imgKata{
+    display: block;
+    width: 100%;
+  }
+  #imgJuvenil{
+    display: block;
+    width: 100%;
+  }
+  #imgRanking{
+    display: block;
+    width:100%
+  }
+  embed{
+    display: none;
+  }
+  #contenedorTotal{
+    flex-direction: column;
+  }
+
+  #contenedorTotal2{
+    width: 100%;
+    flex-direction: column;
+  }
+  table,td,th{
+    width: 100%;
+    font-size: 10px
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px){
+  #imgKumite{
+    display: block;
+    width: 100%;
+  }
+  #imgKata{
+    display: block;
+    width: 100%;
+  }
+  #imgJuvenil{
+    display: block;
+    width: 100%;
+  }
+  #imgRanking{
+    display: block;
+    width:100%
+  }
+  embed{
+    display: none;
+  }
+  #contenedorTotal{
+    flex-direction: column;
+  }
+
+  #contenedorTotal2{
+    width: 100%;
+    flex-direction: column;
+  }
+  table,td,th{
+    width: 100%;
+    font-size: 20px;
+  }
+  h1{
+    font-size: 50px;
+    color: white;
+  }
+  h2{
+    font-size: 50px;
+    color: white;
+  }
+
+}
