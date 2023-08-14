@@ -35,3 +35,58 @@ embed{
   width:530px; 
   height:600px;
 }
+#ArbitrajeCuk{
+   display: none;
+}
+#generalCuk{
+   display: none;
+}
+h1{
+  text-align: center;
+}
+@media screen and (max-width:767px){
+  #ArbitrajeCuk{
+    display: block;
+    width: 100%;
+ }
+ #generalCuk{
+    display: block;
+    width: 100%;
+ }
+ embed{
+  display: none;
+ }
+ .Reglamento{
+  flex-direction: column;
+  width: 90%;
+ }
+ #imagen{
+  width: 100%;
+ }
+ #contenedorReglamento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+  #ArbitrajeCuk{
+    display: block;
+    width: 100%;
+ }
+ #generalCuk{
+    display: block;
+    width: 100%;
+ }
+ embed{
+  display: none;
+ }
+ h2{
+  font-size: 40px;
+ }
+  #segundoReglamento{
+    display: flex;
+    flex-direction: row-reverse;
+}
+}
