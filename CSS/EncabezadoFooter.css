@@ -54,6 +54,12 @@ button:hover {
   color:white;
 }
 
+#menu ul li{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 0px;
+}
+
 #encabezado li {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid black;
@@ -190,6 +196,8 @@ footer {
 }
 #encabezadoMedia{
   display: none;
+  position: fixed;
+  width: 100%;
 }
 .MediaInstitucional{
   display: none;
@@ -206,13 +214,13 @@ footer {
   }
   #menu{
   flex-direction: column;
-  justify-content: end;
-  margin-top: 10px;
+  justify-content: center;
   display: none;
   background-color: white;
   z-index: 9999;
-  align-items: end;
-  width: fit-content;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   position: fixed;
   }
   .MediaInstitucional{
@@ -225,6 +233,17 @@ footer {
   display: flex;
   align-items: center;
   }
+  #cerrarMenu{
+    position: absolute;
+    right: 0;
+    top:0;
+  }
+  #tituloOpciones{
+    font-size: 45px;
+    text-align: center;
+    color:rgb(17, 53, 170); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
 @media screen and (max-width: 767px){
   #encabezadoMedia{
     display: flex;
@@ -235,10 +254,6 @@ footer {
     display: flex;
     justify-content: end;
   }
-  #tituloOpciones{
-    font-size: 110%;
-    text-align: center;
-  }
   #logoMedia{
     width:35%;
   }
@@ -247,6 +262,9 @@ footer {
   }  
   ul{
     list-style: none;
+    font-size: 35px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   li{
     pointer-events: painted;
@@ -270,22 +288,29 @@ footer p {
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px){
-  #encabezado{
-  display: none;
+  body{
+    width: 100%;
   }
-
+  #encabezado{
+    display: none;
+  }
+   
   #encabezadoMedia{
     display: flex;
     justify-content: end;
     align-items: end;
   }
+
   #contenedorMenu{
     display: flex;
     justify-content: end;
   }
+
   #tituloOpciones{
-    font-size: 110%;
+    font-size: 70px;
     text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15%;
   }
   #logoMedia{
     width: 50%;
@@ -296,66 +321,72 @@ footer p {
   }  
   ul{
     list-style: none;
+    font-size: 60px ;
+    width: 100%;
+    text-align: center;
+
   }
   li{
     pointer-events: painted;
   }
-#encabezado{
-  display: none;
-}
-#encabezadoMedia{
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  height: 100px;
-  align-items: center;
-  width: 100%;
-}
-.conjuntoEntidades{
-  width: fit-content;
-}
-footer p {
-  width: fit-content;
-}
-#CukCopyright{
-  width: 100%;
-}
-#contenedorX{
-  display: flex;
-  justify-content: end;
+
+  #cerrarMenu{
+    width: fit-content;
+    height: 7%;
+  }  
+  
+  #encabezado{
+    display: none;
   }
-  #menu{
-  flex-direction: column;
-  justify-content: end;
-  margin-top: 3%;
-  display: none;
-  background-color: white;
-  z-index: 9999;
-  align-items: end;
-  width: fit-content;
-  position: fixed;
-  transform: scale(1.3);
-  margin-right: 3%;
-  font-size: 30px;
+
+  #encabezadoMedia{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+    align-items: center;
+    width: 100%;
   }
+
+  .conjuntoEntidades{
+    width: fit-content;
+  }
+
+  footer p {
+    width: fit-content;
+  }
+
+  #CukCopyright{
+    width: 100%;
+  }
+
+  #contenedorX{
+    display: flex;
+    justify-content: end;
+  }
+
   .MediaInstitucional{
   display: none;
   }
+
   #opcionesMedia{
   display: block;
   }
+
   .footer-contacto{
     font-size: 20px;
   }
+
   #enlaceIndex{
   display: flex;
   align-items: center;
   }
+
   #contenedorX{
     display: flex;
     justify-content: end;
-    }
-  
+  }
+    
 }
 @media screen and (min-width: 1201px) and (max-width: 3000px){
   .enlaces{
