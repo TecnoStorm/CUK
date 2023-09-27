@@ -196,7 +196,6 @@ footer {
 }
 #encabezadoMedia{
   display: none;
-  position: fixed;
   width: 100%;
 }
 .MediaInstitucional{

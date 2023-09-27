@@ -151,15 +151,19 @@ embed{
 }
 #imgKumite{
   display: none;
+  border-radius: 15px;
 }
 #imgKata{
   display: none;
+  border-radius: 15px;
 }
 #imgJuvenil{
   display: none;
+  border-radius: 15px;
 }
 #imgRanking{
   display: none;
+  border-radius: 15px;
 }
 
 @media screen and (max-width:767px){

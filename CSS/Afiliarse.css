@@ -79,6 +79,8 @@ summary:hover {
   display: flex;
   justify-content: center;
   max-width: 500px;
+  margin: 4% 0%;
+  border-radius: 10px;
 }
 
 p {
@@ -115,6 +117,15 @@ h3 {
     width: 100%;
     font-size: 20px;
   }
+
+  .ul-texto{
+    margin: 2% 0%;
+  }
+
+  .li-texto{
+    font-size: 30px;
+  }
+
   #escuelita{
     width: 100%;
     font-size: 20px;

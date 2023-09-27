@@ -24,6 +24,7 @@ body {
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
+  font-size: 27px;
 }
 
 p {
@@ -104,7 +105,8 @@ embed {
   height:600px;
 }
 #imgEstatuto{
-display: none;
+  display: none;
+  border-radius: 15px;
 }
 #imgEstatuto{
   display:none
@@ -122,12 +124,17 @@ display: none;
     display: block;
     width: 90%;
   }
+
+  #textoMemoria{
+    font-size: 25px;
+  }
   #memoriapdf{
     display: none;
   }
   #contenedorMemoriaMarco{
       flex-direction: column;
   }
+
   #memoria{
     width: 100%;
     height: fit-content;
@@ -137,6 +144,11 @@ display: none;
     height: fit-content;
     padding-bottom:0 ;
   }
+
+  #MarcoNormativo p {
+    font-size: 24px;
+  }
+
   #imgEstatuto{
     display: block;
     margin:5px;
@@ -151,6 +163,11 @@ display: none;
   }
   #reglamento{
     margin-top: 0;
+  }
+
+  #acta p{
+    font-size: 24px;
+    padding: 1% 4% ;
   }
 }
 @media screen and (min-width:768px) and (max-width:1366px){
@@ -196,7 +213,8 @@ display: none;
    flex-direction: column;
   }
   #acta p {
-     font-size: 30px;
+     font-size: 22px;
+     padding: 1px 4% ;
   }
   
 }
