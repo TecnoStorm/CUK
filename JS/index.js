@@ -103,6 +103,7 @@ function mostrarInformacion(){
         break;
     }
 }
+
 const slider = document.querySelector('#noticias');
 const noticias = document.querySelectorAll('.noticia');
 const izquierda = document.getElementById('flechaIzquierda');
